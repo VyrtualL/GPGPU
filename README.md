@@ -1,7 +1,11 @@
 # Project done by Matis, Ewan, Virgile and Lylian
 # Project :
 
-![Implementation archi](figures/project.png)
+<p align="center">
+  <img src="assets/project.png">
+  <br>
+  <em>Project Architecture</em>
+</p>
 
 # GPGPU Video Motion Estimation : GStreamer Plugin
 
@@ -17,7 +21,11 @@ The change mask is computed in three stages:
    - Hysteresis thresholding
 3. **Mask application** : overlays the resulting motion mask on the original frame.
 
-![Implementation result](figures/result.png)
+<p align="center">
+  <img src="assets/result.png">
+  <br>
+  <em>Output Result</em>
+</p>
 
 ### 1. Background Estimation
 
@@ -58,7 +66,11 @@ Optimizations are cumulative, each version includes all improvements from the pr
 | `gpu-1` | Reduced number of computations per sRGB → L\*a\*b\* conversion. |
 | `gpu-2` | Single-precision instead of double-precision floats; shared memory used in the morphological opening kernel. |
 
-![Implementation benchmark](figures/bench.png)
+<p align="center">
+  <img src="assets/bench.png">
+  <br>
+  <em>Benchmark of the implementation versions</em>
+</p>
 
 # Inference
 
