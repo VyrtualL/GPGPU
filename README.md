@@ -1,5 +1,7 @@
 # Project done by Matis, Ewan, Virgile and Lylian
-# Report :
+# Project :
+
+![Implementation archi](figures/project.png)
 
 # GPGPU Video Motion Estimation : GStreamer Plugin
 
@@ -14,6 +16,8 @@ The change mask is computed in three stages:
    - Morphological opening (erosion → dilation)
    - Hysteresis thresholding
 3. **Mask application** : overlays the resulting motion mask on the original frame.
+
+![Implementation result](figures/result.png)
 
 ### 1. Background Estimation
 
