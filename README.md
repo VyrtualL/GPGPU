@@ -22,7 +22,7 @@ The change mask is computed in three stages:
 3. **Mask application** : overlays the resulting motion mask on the original frame.
 
 <p align="center">
-  <img src="assets/result.png" width="100">
+  <img src="assets/result.png" width="50%">
   <br>
   <em>Output Result</em>
 </p>
